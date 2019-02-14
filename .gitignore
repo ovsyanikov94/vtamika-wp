@@ -1,0 +1,11 @@
+/.idea
+/app
+/admin/wp-admin
+/admin/wp-includes
+/admin/wp-content/uploads
+/admin/wp-content/themes/twe*
+/admin/*/node_modules
+/admin/*.php
+/admin/*.html
+/admin/*.txt
+/admin/.htaccess

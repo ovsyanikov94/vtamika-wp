@@ -1,0 +1,6 @@
+RewriteEngine on
+
+
+RewriteRule ^panel admin/wp-login.php [L]
+#RewriteRule ^admin admin/wp-login.php [L]
+RewriteRule ^ app/index.html [L]

@@ -1,0 +1,130 @@
+/* Component styles */
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	/* box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2); */
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.25em;
+	text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+	margin-top: 15px;
+	float: right;
+	padding: 0.5em 1.25em;
+	width: auto !important;
+	margin: 0;
+	color: #243133 !important;
+	color: #fff !important;
+	font-weight: 100;
+	position: relative;
+	/* min-width: 250px; */
+	display: inline-block;
+	color: #33AA71;
+	font-family: 'ralewaylight';
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 70% !important;
+	/* margin-top: 15px; */
+}
+
+.button.styl-material {
+	-webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	background: #FF8F00;
+	background: #DD2C93;
+	background: #FFED00;
+	background: #9C27B0;
+	background: #304244;
+	/* background: rgba(230, 126, 34,1.0); */
+}
+
+.button.styl-material:hover,
+.button.styl-material:focus {
+	outline: none;
+	background: #EC407A;
+	background: #E3C327;
+	background: #7B1FA2;
+	/* background: #243133; */
+	background: rgba(211, 84, 0,1.0);
+	background: rgb(227, 195, 39);
+}
+
+.ripple-obj {
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	fill: #4A3355;
+}
+
+.ripple-obj use {
+	opacity: 0;
+}
+
+/* Colors */
+.theme-2 .button.styl-material {
+	background: #2196F3;
+}
+
+.theme-2 .button.styl-material:hover,
+.theme-2 .button.styl-material:focus {
+	background: #2b9bf4;
+}
+
+.theme-3 .button.styl-material {
+	background: #009688;
+}
+
+.theme-3 .button.styl-material:hover,
+.theme-3 .button.styl-material:focus {
+	background: #26A69A;
+}
+
+.theme-3 .ripple-obj {
+	fill: #00695C;
+}
+
+
+/*
+.grid li {
+	opacity: 0;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+	opacity: 1;
+}
+
+
+ Effect 1: opacity 
+.grid.effect-1 li.animate {
+	-webkit-animation: fadeIn 0.65s ease forwards;
+	animation: fadeIn 0.65s ease forwards;
+}
+
+ Effect 2: Move Up 
+.grid.effect-2 li.animate {
+	-webkit-transform: translateY(200px);
+	transform: translateY(200px);
+	-webkit-animation: moveUp 0.65s ease forwards;
+	animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}*/
