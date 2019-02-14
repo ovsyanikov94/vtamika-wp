@@ -8,9 +8,11 @@ include("includes/class.newPostType.php");
 include("includes/class.newPostStatus.php");
 include("includes/class.formGenerator.php");
 
+
 include("includes/ajaxApi.php");
 require_once "includes/Entity.php";
 include 'includes/avgEntity.php';
+
 //include_once 'includes/taxonomy-term-image.php';
 
 add_action( 'init', 'registerPostTypes', 0 );
